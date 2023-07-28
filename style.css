@@ -153,9 +153,9 @@ a {
   transition: all 1.3s;
   animation: scaleImage 5s linear infinite;
 }
-.user-image img {
-  z-index: -9;
-}
+/* .user-image img {
+  z-index: 9;
+} */
 @keyframes scaleImage {
   0% {
     filter: grayscale(0);
